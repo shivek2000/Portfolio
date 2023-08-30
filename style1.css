@@ -109,7 +109,7 @@ section{
 	position: relative;
 	height:100%;
 	width:100% ;
-	background-image:url("");
+	background-image:url("new.jpg");
 	background-size: cover;
 	background-position:top center;
 	display:flex;
@@ -230,8 +230,8 @@ section{
 header.sticky{
 
 	background: var(--bg-color)	;
-	border-bottom: 1px solid #fffff1a ;
-	padding: 	12px 15%;
+	border-bottom: 1px solid #ffffff99 ;
+	padding: 12px 15%;
 }
 
 .about{
@@ -374,7 +374,7 @@ color: var(--text-color);
 	color: var(--text-color);
 	margin: 18px 0;
 	font-size: 20px;
-	font font-weight: 600;
+   font-weight: 600;
 
 }
 
@@ -570,7 +570,7 @@ color: var(--text-color);
 .home{
 	height: 60em;
 }
-}
+
 
 @media(max-width: 920px){
 	.about{
