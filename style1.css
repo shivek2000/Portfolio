@@ -16,7 +16,7 @@
 	--bg-color:#2a2a2a;
 	--second-bg-color:#202020;
 	--text-color:#fff;
-	--second-color: #fff;
+	--second-color:#ccc;
 	--main-color:#393f4d;
 	--big-font:80px;
 	--h2-font:50px;
@@ -59,7 +59,7 @@ header{
 
 span{
 
-	color: #7ac9ec;
+	color: var(--main-color);
 }
 
 .navlist{
@@ -140,7 +140,7 @@ section{
 
 	display:inline-block ;
 	color: var(--second-color)	;
-	font-size: 30px	;
+	font-size: 25px	;
 	font-weight:500;
 }
 
@@ -244,8 +244,10 @@ header.sticky{
 
 .about-img img{
 
-	height: auto;
-	max-width: 100%;
+
+	max-width: 	530PX;
+	height: 	AUTO;
+	width: 	100%;
 	border-radius: 8px;
 }
 
@@ -406,11 +408,13 @@ color: var(--text-color);
 
 .list li{
 
-word-spacing: 4px;
+
 	margin-bottom: 12px;
 }
 
 .list li a {
+
+	display: block;
 	color: var(--second-color);
 	font-size: 14px;
 	transition: all .45sec ease;
@@ -574,68 +578,3 @@ word-spacing: 4px;
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
